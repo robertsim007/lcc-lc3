@@ -1,8 +1,8 @@
 LCC-LC3 C Compiler
 ===================
 
-##Recent Changes
-####May 2012
+## Recent Changes
+#### May 2012
 
 *Avery Yen*
 
@@ -19,12 +19,12 @@ From Stephen Canon:
 > `/usr/bin/gcc` is a bit of a frankencompiler on Lion; it's actually an alias for `llvm-gcc-4.2`, which uses the front end of GCC-4.2 and the LLVM back end. I suspect that the GCC frontend is making an alignment assumption in its internal representation that would later get unwound by the GCC backend, but that never has a chance to happen...
 
 
-##Description Of Contents
+## Description Of Contents
 
 This is the preliminary distribution of LCC that supports the LC-3. This
 is the slightly modified version of Ladsaria and Patel's LCC for use at Dartmouth College. The copyright information is in the file CPYRIGHT. There is absolutely no warranty for this software. Complete installation information is in INSTALL. TODO contains a to-do list.
 
-##Installation Instructions
+## Installation Instructions
 
 First, you must install the [LC3 Tools](https://github.com/haplesshero13/lc3tools) to have `lc3as`.
 
@@ -42,7 +42,7 @@ by the compiler, along with some informational files, such as this README
 file, a sample C file to compile, and a makefile for compiling that file.
 
 
-##How To Use
+## How To Use
 
 In the package there is a regressions and limitations test directiory in
 topdir/test/limitations and topdir/test/regression. The regression
@@ -66,12 +66,12 @@ limited LC-3 register set. See topdir/test/limitations for some examples
 that do not compile properly. I hope to reduce this set of exceptional
 cases over time.
 
-##Maintainers and Contributors
+## Maintainers and Contributors
 * Sean Smith
 * Stephen Canon
 * Avery Yen
 
-##Original Authors
+## Original Authors
 
 * Ajay Ladsaria
 * Sanjay J. Patel (sjp@crhc.uiuc.edu)
